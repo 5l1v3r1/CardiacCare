@@ -5,7 +5,6 @@
 1. Understand the purpose of the Java Development Kit. The Java Development Kit (JDK) will allow you to &quot;call&quot; Java commands in Android Studio. When downloading the JDK, it&#39;s important to ensure that you&#39;re selecting the most up-to-date version possible
 
 2. Open the JDK website. Go to http://www.oracle.com/technetwork/java/javase/downloads/index.html in your computer&#39;s browser. This is the page for all Java downloads, which includes the most recent version
-
 of the JDK.
 
 3. Click DOWNLOAD. It&#39;s a grey button near the top of the page, just below the &quot;Java&quot; entry in the &quot;Java SE Downloads&quot; section of the page.
