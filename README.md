@@ -53,10 +53,10 @@ of the JDK.
 **Running The Source Code:**
 
 1. Start Android Studio
-2. Go to File -\&gt; New -\&gt; Project from Version Control -\&gt; GitHub
+2. Go to File >> New >> Project from Version Control >> GitHub
 3. Copy the Link from Github and Paste in the Text Box Given and Hit Clone Button
 4. The project will install dependencies. Provide all necessary permissions
-5. Now Click on **Tools \&gt; Firebase** to open the **Assistant** window.
-6. Click to expand one of the listed features (for example, Realtime Database), then click the **Get Started** tutorial to connect to Firebase and link the firebase project to the Android Studio Project
+5. Now Click on Tools >> Firebase to open the Assistant window.
+6. Click to expand one of the listed features (for example, Realtime Database), then click the Get Started tutorial to connect to Firebase and link the firebase project to the Android Studio Project
 7. Build the Project
 8. Run the Project by Clicking on the Play Button located on the top.
