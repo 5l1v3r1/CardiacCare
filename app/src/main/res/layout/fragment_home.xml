@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Riskcalc_Fragment"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="BMI Meter"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.ntt.customgaugeview.library.GaugeView
+        android:id="@+id/gv_meter"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        gauge:divisions="5"
+        gauge:rangeValues="@array/ranges"
+        gauge:scaleStartValue="15"
+        gauge:scaleEndValue="40"
+        gauge:showInnerRim="false"
+        gauge:showNeedle="true"
+        gauge:showOuterBorder="false"
+        gauge:showOuterRim="true"
+        gauge:showOuterShadow="false"
+        gauge:showRangeText="true"
+        gauge:showRanges="true"
+        gauge:showScale="true"
+        gauge:subdivisions="1"
+        gauge:textUnit="BMI Meter"
+        gauge:textUnitColor="#000000"
+        gauge:textUnitSize="0.06"
+        gauge:textValueSize="0.15" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BMI: "
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:id="@+id/id_BMI"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:id="@+id/id_BMIStatus"/>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Cardiac Risk Score"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/bargraphhome"></com.github.mikephil.charting.charts.BarChart>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "863369146447",
+    "firebase_url": "https://tesst1-merge.firebaseio.com",
+    "project_id": "tesst1-merge",
+    "storage_bucket": "tesst1-merge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863369146447:android:905005744193aa3d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863369146447-66u92vc1fg493ijkko9k8lguhdoebpcc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication.mock",
+            "certificate_hash": "5c920a8ed61cd4dd8f6cff046cbc2d82883262de"
+          }
+        },
+        {
+          "client_id": "863369146447-jjgmbtkstuiabsvtqban5o20cvks2p83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVUbP2fxDWq80qJ0YhGyv9bLmcqhrCJcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863369146447-jjgmbtkstuiabsvtqban5o20cvks2p83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

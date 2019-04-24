@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".listView_Riskcalc" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".doc_nav_bar"
+            android:label="@string/title_activity_doc_nav_bar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Emergency"
+            android:label="@string/title_activity_emergency"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vitals"
+            android:label="@string/title_activity_vitals"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Appointments"
+            android:label="@string/title_activity_appointments"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addpillrem"
+            android:label="@string/title_activity_addpillrem"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PillReminder"
+            android:label="@string/title_activity_pill_reminder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Articles"
+            android:label="@string/title_activity_articles"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavBar"
+            android:label="@string/title_activity_nav_bar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB_R3xGkrDbmVFzcPRBLzKoE0Z7simQn0k" />
+
+        <activity
+            android:name=".addappointmentnew"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MapsActivity"></activity>
+        <activity
+            android:name=".addmedicine.AddMedicineActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alarm.ReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".report.MonthlyReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".medicine.MedicineActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".patientdetailsfragment"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
